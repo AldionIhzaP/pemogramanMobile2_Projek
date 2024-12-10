@@ -18,10 +18,6 @@ class LoginView extends GetView<LoginController> {
             SizedBox(
               height: 80,
             ),
-            Image.network(
-              "https://static-00.iconduck.com/assets.00/android-plain-wordmark-icon-256x256-ppoejbtc.png",
-              height: 100,
-            ),
             SizedBox(
               height: 10,
             ),
@@ -77,6 +73,17 @@ class LoginView extends GetView<LoginController> {
                   child: Text("Daftar Disini"),
                 ),
               ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            ElevatedButton(
+              onPressed: () => cAuth.LoginGoogle(),
+              child: Text("Login with google"),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.red,
+                foregroundColor: Colors.white,
+              ),
             ),
           ],
         ),
