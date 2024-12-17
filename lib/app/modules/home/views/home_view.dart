@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:myapp/app/controllers/auth_controller.dart';
+import 'package:myapp/app/modules/Karyawan/views/PegawaiView.dart';
+import 'package:myapp/app/modules/Karyawan/views/pegawai_add_view.dart';
 import 'package:myapp/app/modules/mahasiswa/views/mahasiswa_add_view.dart';
 import 'package:myapp/app/modules/mahasiswa/views/mahasiswa_view.dart';
 
@@ -42,9 +44,9 @@ class _DashboardAdminState extends State<DashboardAdmin> {
       'add': () => MahasiswaAddView(),
     },
     {
-      'title': 'Data Pegawai',
-      'view': MahasiswaView(),
-      'add': () => MahasiswaAddView(),
+      'title': 'Data Karyawan',
+      'view': PegawaiView(),
+      'add': () => PegawaiAddView(),
     },
   ];
 
@@ -143,7 +145,7 @@ class _DashboardAdminState extends State<DashboardAdmin> {
               Get.back();
             },
             leading: Icon(Icons.people),
-            title: Text('Data Pegawai'),
+            title: Text('Karyawan 22312006'),
             trailing: Icon(Icons.navigate_next),
             iconColor: Colors.teal,
             textColor: Colors.teal,

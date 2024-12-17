@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "322322304903",
-    "project_id": "latihan-if22a",
-    "storage_bucket": "latihan-if22a.appspot.com"
+    "project_number": "282064200981",
+    "project_id": "if22a-materi",
+    "storage_bucket": "if22a-materi.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:322322304903:android:b7c907eb6594a32b420d22",
+        "mobilesdk_app_id": "1:282064200981:android:69aea153ad77729875f51c",
         "android_client_info": {
-          "package_name": "com.example.myapp"
+          "package_name": "com.example.app"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD8VAcmBaB-DzVlZ0bZIJo7CzhHoiza8Uk"
+          "current_key": "AIzaSyANwkoxi1MV_2yJKMy2jSZUbAZs_0g_R0k"
         }
       ],
       "services": {
@@ -26,15 +26,34 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:322322304903:android:3f9a81ea1f7dd758420d22",
+        "mobilesdk_app_id": "1:282064200981:android:52af47c15082200575f51c",
         "android_client_info": {
-          "package_name": "reflan.com"
+          "package_name": "com.example.myapp"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD8VAcmBaB-DzVlZ0bZIJo7CzhHoiza8Uk"
+          "current_key": "AIzaSyANwkoxi1MV_2yJKMy2jSZUbAZs_0g_R0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282064200981:android:0d60ce9b2e59c42575f51c",
+        "android_client_info": {
+          "package_name": "dion.company"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANwkoxi1MV_2yJKMy2jSZUbAZs_0g_R0k"
         }
       ],
       "services": {

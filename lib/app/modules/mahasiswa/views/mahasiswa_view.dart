@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 
 import '../controllers/mahasiswa_controller.dart';
 
-import '../controllers/mahasiswa_controller.dart';
+
 
 class MahasiswaView extends GetView<MahasiswaController> {
   void showOption(id) async {
